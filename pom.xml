@@ -68,11 +68,12 @@
 			    <configuration>
 			        <deploymentType>cloudhub</deploymentType>
 			        <muleVersion>3.8.5</muleVersion>
-			        <username>ajaysingh-soneparpacific</username>
-			        <password>Khalsa2000</password>
+			        <username>${mule.username}</username>
+			        <password>${mule.password}</password>
 				 <workerType>Micro</workerType>
 			        <redeploy>true</redeploy>
 			        <environment>Test</environment>
+			        <domain>default</domain>
 			    </configuration>
 			    <executions>
 			        <execution>

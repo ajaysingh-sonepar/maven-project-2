@@ -12,6 +12,16 @@
   <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-kahadb-store/5.14.0/activemq-kahadb-store-5.14.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-openwire-legacy/5.14.0/activemq-openwire-legacy-5.14.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.9.6/ant-1.9.6.jar">
+    <attributes>
+      <attribute value="provided" name="org.mule.tooling.scope"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar">
+    <attributes>
+      <attribute value="provided" name="org.mule.tooling.scope"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar">
     <attributes>
       <attribute value="provided" name="org.mule.tooling.scope"/>
@@ -22,6 +32,7 @@
       <attribute value="provided" name="org.mule.tooling.scope"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-net/commons-net/3.5/commons-net-3.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar"/>
